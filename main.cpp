@@ -17,6 +17,7 @@ int main()
 
 	if (number > in_day || number < 0) {
 		cout << "Invalid values entered" << endl;
+		return 0;
 	}
 
 	passed[0] = number % 60;
