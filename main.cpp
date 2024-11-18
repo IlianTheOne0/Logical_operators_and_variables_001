@@ -10,7 +10,7 @@ int main()
 	int scale;
 	double distance;
 
-	cout << "Calculate the distance between settlements" << "Enter the initial data:" << endl;
+	cout << "Calculate the distance between settlements" << endl << "Enter the initial data:" << endl;
 
 	cout << "Map scale (number of kilometers in one centimeter) -> ";
 	cin >> scale;
