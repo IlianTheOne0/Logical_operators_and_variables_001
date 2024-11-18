@@ -16,7 +16,7 @@ int main()
 
 	if (number > in_day || number < 0) {
 		cout << "Invalid values entered" << endl;
-		break;
+		return 0;
 	}
 
 	int second_number = in_day - number;
